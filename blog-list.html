@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="TopNBot.css">
+<link rel="stylesheet" type="text/css" href="about.css">
+<link rel="stylesheet" type="text/css" href="blog-list.css">
+<script src="navbar.js"></script>
+
+</head>
+<body>
+<header>
+  <h1>GLOBAL HISTORY</h1>
+</header>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Categories
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#">Facts</a>
+    <a href="#">Relics</a>
+    <a href="#">People</a>
+  </div>
+  </div>
+  <a href="blog-list.html">Blogs</a>
+  <a href="#exhibition">Exhibition</a>
+  <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+</div>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="#">
+    <div class="imgcontainer">
+      <img src="https://forrestperkins.com/wp-content/uploads/2017/11/avatar.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Usernames" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<section>
+  <!-- Load Font Awesome Icon Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <p class="top"><i>Blogs about History</i></p>
+  <hr/>
+
+  <div class="row">
+    <div class="column">
+      <div class="preview-text">
+        <h2><a href="#">HENRICVS - VII</a></h2>
+        <p>Some text..</p>
+      </div>
+      <div class="img-container"><img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/10/grooms-of-the-stool.jpg" /></div>
+    </div>
+    <div class="column">
+      <div class="preview-text">
+        <h2><a href="#">HENRICVS - VII</a></h2>
+        <p>Some text..</p>
+      </div>
+      <div class="img-container"><img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/10/grooms-of-the-stool.jpg" /></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="preview-text">
+        <h2><a href="#">HENRICVS - VII</a></h2>
+        <p>Henry VIII of England had people who was called "Grooms of Stool"...</p>
+      </div>
+      <div class="img-container"><img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/10/grooms-of-the-stool.jpg" /></div>
+    </div>
+    <div class="column">
+      <div class="preview-text">
+        <h2><a href="#">HENRICVS - VII</a></h2>
+        <p>Some text..</p>
+      </div>
+      <div class="img-container"><img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/10/grooms-of-the-stool.jpg" /></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="preview-text">
+        <h2><a href="#">HENRICVS - VII</a></h2>
+        <p>Some text..</p>
+      </div>
+      <div class="img-container"><img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/10/grooms-of-the-stool.jpg" /></div>
+    </div>
+    <div class="column">
+      <div class="preview-text">
+        <h2><a href="#">HENRICVS - VII</a></h2>
+        <p>Some text..</p>
+      </div>
+      <div class="img-container"><img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/10/grooms-of-the-stool.jpg" /></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="preview-text">
+        <h2><a href="#">HENRICVS - VII</a></h2>
+        <p>Some text..</p>
+      </div>
+      <div class="img-container"><img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/10/grooms-of-the-stool.jpg" /></div>
+    </div>
+    <div class="column">
+      <div class="preview-text">
+        <h2><a href="#">HENRICVS - VII</a></h2>
+        <p>Some text..</p>
+      </div>
+      <div class="img-container"><img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/10/grooms-of-the-stool.jpg" /></div>
+    </div>
+  </div>
+</section>
+<footer>
+Global History - History Around The Globe
+</footer>
+</body>
+</html>

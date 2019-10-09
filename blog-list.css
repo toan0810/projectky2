@@ -1,0 +1,53 @@
+/* Create two equal columns that floats next to each other */
+p.top {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 45%;
+  margin: 0 5px;
+  padding: 10px;
+  height: 200px;
+  border-left: 6px solid #333;
+  background-color: #1a0000;
+}
+.row {
+  width: 100%;
+  margin: 10px 0;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row img {
+  max-width: 100%;
+  height:auto;
+}
+.img-container {
+  float: right;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+div.preview-text {
+  float: left;
+  width: 60%;
+  height: 100%;
+  color: gray;
+}
+div.preview-text a {
+  color: white;
+  text-decoration: none;
+}
+div.preview-text a:hover {
+  color: red;
+}
+section {
+  width: 70%;
+  margin-bottom: 20px;
+}
